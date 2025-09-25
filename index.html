@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>K Hostels — Rentals</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">
+      <!-- House icon -->
+      <svg class="logo-icon" width="48" height="48" viewBox="0 0 64 64">
+        <path d="M16 28 L32 16 L48 28" stroke="#00bfa6" stroke-width="3" fill="none"/>
+        <rect x="20" y="28" width="24" height="18" rx="2" fill="#00bfa6"/>
+        <rect x="28" y="34" width="8" height="8" rx="1" fill="#03241e"/>
+      </svg>
+
+      <!-- Logo text -->
+      <div class="logo-text">
+        <span class="title">K <span class="accent">Hostels</span></span>
+        <span class="tagline">Rentals</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Price search -->
+    <section class="card search-bar">
+      <input type="number" id="priceInput" placeholder="Enter price (Ksh)">
+      <button id="searchBtn" class="btn btn-primary">Search</button>
+    </section>
+
+    <!-- Listings -->
+    <section id="listings" class="listings card">
+      <a href="passion-hostels/passion-hostels.html" class="listing-card" data-price="12000">
+        <div class="thumb"><img src="passion-hostels/passion1.jpg" alt="Passion Hostel"></div>
+        <div class="meta">
+          <div class="row">
+            <strong class="title">Passion Hostel</strong>
+            <span class="price">Ksh 12,000/Sem</span>
+          </div>
+          <div class="desc">Spacious rooms with Wi-Fi, near kiirua TTI...</div>
+          <div class="small">📍 Near TTI</div>
+        </div>
+      </a>
+
+      <a href="Court-hostel/court-hostels.html" class="listing-card" data-price="9000">
+        <div class="thumb"><img src="Court-hostel/court1.jpg" alt="Court Rentals"></div>
+        <div class="meta">
+          <div class="row">
+            <strong class="title">Court 1&2 Estate</strong>
+            <span class="price">Ksh 9,000/Sem</span>
+          </div>
+          <div class="desc">Modern design spacious single room... </div>
+          <div class="small">📍 Near TTI</div>
+        </div>
+      </a>
+    
+      <a href="sky-mark/sky-mark.html" class="listing-card" data-price="9000">
+        <div class="thumb"><img src="sky-mark/sky1.jpg" alt="Passion Hostel"></div>
+        <div class="meta">
+          <div class="row">
+            <strong class="title">Sky Mark Residence</strong>
+            <span class="price">Ksh 9,000/Sem</span>
+          </div>
+          <div class="desc">Spacious rooms with Wi-Fi, near kiirua TTI...</div>
+          <div class="small"></div>
+           <div class="small">📍 Near TTI</div>
+        </div>
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="credit">Proudly from <strong>Kiirua</strong></div>
+    <div class="contact">📞 Contact: +254 111467809<br> mwaialeki1@gmail.com</div>
+    <div class="copyright">© 2025 leko Softwares</div>
+  </footer>
+
+  <script src="js/search.js" defer></script>
+</body>
+</html>

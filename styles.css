@@ -1,0 +1,178 @@
+/* General site styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header.site-header {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background: #03241e;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text .title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+.logo-text .accent {
+  color: #00bfa6;
+}
+
+.logo-text .tagline {
+  font-size: 0.9rem;
+  margin-left: 8px;
+  font-style: italic;
+  transform: rotate(-5deg);
+}
+
+/* Cards and container */
+.container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Listings */
+.listings {
+  display: grid;
+  gap: 1rem;
+}
+
+.listing-card {
+  display: flex;
+  gap: 1rem;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 0.8rem;
+  transition: transform 0.2s;
+}
+
+.listing-card:hover {
+  transform: scale(1.02);
+}
+
+.listing-card img {
+  width: 120px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.meta .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Search bar */
+.search-bar {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.search-bar .btn {
+  padding: 0.6rem 1rem;
+  background: #00bfa6;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.search-bar .btn:hover {
+  background: #029885;
+}
+
+/* Hostel detail page */
+.hostel-page {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.hostel-page h1 {
+  font-size: 1.8rem;
+}
+
+.hostel-page .price {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #00bfa6;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 12px;
+  margin: 1rem 0;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+.contact-box {
+  background: #00bfa6;
+  color: white;
+  padding: 0.8rem;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #444;
+  margin-top: 2rem;
+}
+/* Price styling for hostel listings */
+.card .price {
+  display: inline-block;
+  background: #00bfa6;   /* Bright accent background */
+  color: white;          /* Contrast text */
+  font-weight: bold;
+  font-size: 1.1rem;     /* Slightly bigger than normal text */
+  padding: 5px 12px;
+  border-radius: 20px;   /* Rounded pill look */
+  margin-top: 8px;
+}
