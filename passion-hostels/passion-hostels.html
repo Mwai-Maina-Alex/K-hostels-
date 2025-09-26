@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Passion Hostel — K Hostels</title>
+  
+  <!-- Internal CSS -->
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f8f9fa;
+      color: #333;
+    }
+
+    .site-header {
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+      background: #03241e;
+      color: white;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo-text {
+      margin-left: 10px;
+    }
+
+    .logo-text .title {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .logo-text .accent {
+      color: #00bfa6;
+    }
+
+    .logo-text .tagline {
+      display: block;
+      font-size: 0.9rem;
+      font-style: italic;
+      transform: rotate(-8deg);
+      color: #ccc;
+    }
+
+    .hostel-page {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .hostel-page h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .price {
+      font-weight: bold;
+      color: #00bfa6;
+    }
+
+    .location {
+      margin-bottom: 20px;
+      color: #555;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    .desc {
+      margin-bottom: 15px;
+      line-height: 1.6;
+    }
+
+    .features {
+      margin-bottom: 20px;
+    }
+
+    .features li {
+      margin: 5px 0;
+    }
+
+    .contact-box {
+      background: #00bfa6;
+      color: white;
+      padding: 10px;
+      border-radius: 5px;
+      font-weight: bold;
+      width: fit-content;
+    }
+
+    .footer {
+      text-align: center;
+      background: #03241e;
+      color: white;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+    .footer .credit {
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">
+      <svg class="logo-icon" width="40" height="40" viewBox="0 0 64 64">
+        <path d="M16 28 L32 16 L48 28" stroke="#00bfa6" stroke-width="3" fill="none"/>
+        <rect x="20" y="28" width="24" height="18" rx="2" fill="#00bfa6"/>
+        <rect x="28" y="34" width="8" height="8" rx="1" fill="#03241e"/>
+      </svg>
+      <div class="logo-text">
+        <span class="title">K <span class="accent">Hostels</span></span>
+        <span class="tagline">Rentals</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="hostel-page">
+    <h1>Passion Estate</h1>
+    <p class="price">Ksh 12,000</p>
+    <p class="location">📍 Near Kiirua TTI</p>
+
+    <!-- Image gallery -->
+    <div class="gallery">
+      <img src="passion1.webp" alt="Room 1">
+      <img src="passion2.webp" alt="Room 2">
+      <img src="passion3.webp" alt="room">
+      <img src="passion4.webp" alt="room">
+      <img src="passion5.webp" alt="room">
+    </div>
+    <p class="desc">
+      This bedsitter hostel is located very close to the school, making it an ideal option for students who want convenience and easy access to classes. The rooms are spacious enough for a student and offer the comfort of private living while still being affordable.
+    </p>
+
+    <ul class="features">
+      <li>✔ Rent: KSh 4,000 per month or KSh 12,000 per semester</li>
+      <li>✔ Electricity: KSh 200 per month</li>
+      <li>✔ WiFi: Hotspot available (pay as you wish)</li>
+      <li>✔ Hot Shower: Available for all residents</li>
+      <li>✔ Security: Reliable, with the main gate closing at 11 PM daily for safety</li>
+      <li>✔ Holiday Fee: KSh 1,000 if you wish to stay during school breaks</li>
+      <li>✔ Furniture: No bed is provided, giving you flexibility to furnish as you like</li>
+    </ul>
+    <p class="desc">
+      This hostel offers great value for students looking for affordable housing, essential amenities, and the added benefit of being within walking distance of the school.
+    </p>
+
+    <div class="contact-box">
+      📞 Call: 0725660550
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="credit">From the brains of <strong>Kiirua</strong></div>
+    <div class="copy">© leko Softwares</div>
+  </footer>
+</body>
+</html>
